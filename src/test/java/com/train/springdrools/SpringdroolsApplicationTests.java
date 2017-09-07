@@ -1,4 +1,4 @@
-package de.jonashackt.springdrools;
+package com.train.springdrools;
 
 import static org.junit.Assert.*;
 
@@ -11,7 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import de.jonashackt.springdrools.internalmodel.Address;
+import com.train.springdrools.SpringdroolsApplication;
+import com.train.springdrools.internalmodel.Address;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = SpringdroolsApplication.class)

@@ -1,4 +1,4 @@
-package de.jonashackt.springdrools.internalmodel;
+package com.train.springdrools.internalmodel;
 
 public class Address {
 

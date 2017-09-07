@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>de.jonashackt.springdrools</groupId>
-	<artifactId>springdrools</artifactId>
+	<groupId>com.train.springdrools</groupId>
+	<artifactId>springdroolsDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springdrools</name>
+	<name>springdroolsDemo</name>
 	<description>Example project for Spring Boot with JBoss Drools with KIE</description>
 
 	<parent>
@@ -20,7 +20,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<start-class>de.jonashackt.springdrools.SpringdroolsApplication</start-class>
+		<!-- <start-class>de.jonashackt.springdrools.SpringdroolsApplication</start-class> -->
 		<java.version>1.8</java.version>
 	</properties>
 
@@ -32,18 +32,18 @@
 		</dependency>
 		
 		<!-- Drools -->
-		<!-- 
+		
 		<dependency>
-			<groupId>de.codecentric</groupId>
+			<groupId>com.train</groupId>
 			<artifactId>spring-boot-starter-drools</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.1.1-SNAPSHOT</version>
 		</dependency>
-		 -->
-		<dependency>
+		 
+		<!-- <dependency>
 		    <groupId>com.github.jonashackt</groupId>
 		    <artifactId>spring-boot-starter-drools</artifactId>
 		    <version>0c22cee54a</version>
-		</dependency>
+		</dependency> -->
 		
 		<!-- Tests -->
 		<dependency>
@@ -61,11 +61,11 @@
 			</plugin>
 		</plugins>
 	</build>
-	<repositories>
+	<!-- <repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
-	</repositories>
+	</repositories> -->
 
 </project>

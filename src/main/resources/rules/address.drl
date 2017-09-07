@@ -2,7 +2,8 @@
 package plausibcheck.adress
 
 //list any import classes here.
-import de.jonashackt.springdrools.internalmodel.Address
+import com.train.springdrools.internalmodel.Address
+
 
 //declare any global variables here
 
